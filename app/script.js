@@ -82,7 +82,6 @@ async function fetchYaDecoder() {
 //Добавляем полученные данные на карту
 function yaMapAddPoints() {
   for (let item of points) {
-    console.log(item.coord[0]);
     geoObject = new ymaps.GeoObject({
       // Описание геометрии.
       geometry: {
