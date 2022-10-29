@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание ООО Наумедиа</title>
+    <link rel="stylesheet" href="./app/styles/style.css" />
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="lds-ring" id="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="container">
+      <div id="map"></div>
+      <div class="control">
+        <form class="main-form">
+          <textarea name="data" id="inputData"></textarea>
+          <button id="send">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="//api-maps.yandex.ru/2.1/?lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="./app/script.js"></script>
+  </body>
+</html>
